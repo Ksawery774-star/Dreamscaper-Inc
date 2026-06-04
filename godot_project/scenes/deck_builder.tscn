@@ -1,0 +1,37 @@
+[gd_scene format=3]
+
+[node name="DeckBuilder" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 100.0
+offset_right = 1200.0
+offset_bottom = 160.0
+text = "TRAUMA DECK MANAGER"
+
+[node name="CurrentDeck" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 200.0
+offset_right = 600.0
+offset_bottom = 800.0
+
+[node name="Label" type="Label" parent="CurrentDeck"]
+text = "Your Trauma Deck"
+
+# TODO: Add dynamic card list with buttons
+
+[node name="AvailableCards" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 200.0
+offset_right = 1200.0
+offset_bottom = 800.0
+
+[node name="Label" type="Label" parent="AvailableCards"]
+text = "Available Traumas to Add"
