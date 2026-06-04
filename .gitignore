@@ -1,0 +1,16 @@
+# Godot
+*.import
+*.godot
+export_presets.cfg
+
+# Unity
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+
+# General
+.DS_Store
+Thumbs.db
+*.log
