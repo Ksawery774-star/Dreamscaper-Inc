@@ -1,0 +1,34 @@
+[gd_scene format=3]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 400.0
+offset_right = 1120.0
+offset_bottom = 450.0
+text = "DREAMSCAPER INC."
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 850.0
+offset_top = 500.0
+offset_right = 1070.0
+offset_bottom = 550.0
+text = "Start New Dream Run"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 850.0
+offset_top = 580.0
+offset_right = 1070.0
+offset_bottom = 630.0
+text = "Manage Agency"
